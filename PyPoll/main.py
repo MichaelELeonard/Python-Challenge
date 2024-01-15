@@ -6,16 +6,21 @@ Total_Votes = 0
 
 # List for Canidate Name, total Votes Received, Percentage of Vote Received 
 Canidate_Info_List = ["Charles Casper Stockham",0,0.0,"Diana DeGette",0,0.0,"Raymon Anthony Doane",0,0.0]
+
+# Initialize Variables
 Canidate_Name = ""
 Winner_Name = ""
 
 
-# Function to Calculate Percentage of Vote Received 
+
+# Function to calculate percentage of votes received 
 def Convert_To_Percent(index):
     Convert_To_Percent = Canidate_Info_List[index] = round(((Canidate_Info_List[index-1]/Total_Votes) * 100), 3)
     return (Convert_To_Percent)
 
 
+
+# Function to determine the name of the winner of the election
 def Who_Won():
     if Canidate_Info_List[1] > (Canidate_Info_List[4]) and (Canidate_Info_List[7]):    
         return Canidate_Info_List[0]
@@ -23,6 +28,7 @@ def Who_Won():
         return Canidate_Info_List[3]
     elif Canidate_Info_List[7] > (Canidate_Info_List[1]) and (Canidate_Info_List[4]):    
         return Canidate_Info_List[6]
+
 
 
 # Set file path for reader
@@ -35,12 +41,13 @@ with open(csvpath) as csvfile:
     # Move pointer past header
     csvheader = next(csvfile)
    
-    # Looping through CSV file to tabulate data
+    # Looping through CSV file to calculate data
     for row in csvreader:
 
-        # Increment Months
+        # Increment Total_Votes cast in election
         Total_Votes += 1
 
+        # Set the name of the canidate in row being examined
         Canidate_Name = str(row[2])
 
         # Constituent voted for Charles Casper Stockham
@@ -62,19 +69,22 @@ with open(csvpath) as csvfile:
             Canidate_Info_List[7] =  Canidate_Info_List [7] + 1
 
 
-# convert total votes for Charles Casper Stockham onto a % for total vote
+
+# Call Convert_To_Percent function to determine percent of vote received by Charles Casper Stockham
 Canidate_Info_List[2] = Convert_To_Percent(2)
 
-# convert total votes for Diana DeGette onto a % for total vote
+# Call Convert_To_Percent function to determine percent of vote received by Diana DeGette
 Canidate_Info_List[5] = Convert_To_Percent(5)
 
-# convert total votes for Raymon Anthony Doane onto a % for total vote
+# Call Convert_To_Percent function to determine percent of vote received by Raymon Anthony Doane
 Canidate_Info_List[8] = Convert_To_Percent(8)
 
+# call Who_Won funcition to determine name of election winner
 Winner_Name = Who_Won()
 
+
        
- # Printing output to Terminal
+ # Printing election results output to Terminal
 print("Election Results")
 print()
 print("----------------------------")
@@ -95,7 +105,7 @@ print(f"Winner: {Winner_Name}")
 print()
 print("----------------------------")
 
-# Printing output to Texty file in directory
+# Printing election results output to Text file in directory
 f = open("Week_3\Week_3_Challenge\python-challenge\PyPoll\Election_Results.txt", "w")
 print("Election Results", file = f)
 print("", file = f)

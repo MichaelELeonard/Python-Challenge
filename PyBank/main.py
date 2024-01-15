@@ -32,7 +32,7 @@ with open(csvpath) as csvfile:
         # Add amount to total_Net
         Total_Net = Total_Net + int(row[1])
         
-        # Skip first line of data is there is no Previous_Change_Amout information (first month))
+        # Skip first line of data because there is no Previous_Change_Amout information (first month))
         if Previous_Change_Amout != 0:
             Change_Amount = int(row[1]) - Previous_Change_Amout
             Total_Sum_Change_Amount += Change_Amount
@@ -50,12 +50,10 @@ with open(csvpath) as csvfile:
         # Track Previous_Change_Amout for Change_amount calculation in line #37
         Previous_Change_Amout = int(row[1])
 
-# calculating the Average_Change. Total_Months-1 used to compensate for no change in the first month as there is no previous months data for calculation
-# Rounding the decimal places 
+# Calculating the Average_Change. Total_Months-1 used to compensate for no change in the first month as there is no previous months data for calculation
+# Rounding to two decimal places 
 Average_Change = round((Total_Sum_Change_Amount/(Total_Months-1)), 2)
 
-# Rounding Average_Change to two decimal places
-#Average_Change = round(Average_Change,2)
 
 # Printing output to Terminal
 print("Financial Analysis")
@@ -72,8 +70,8 @@ print(f"Greatest Increase in Profits: {Greatest_Increase_Date} (${Greatest_Incre
 print()
 print(f"Greatest Decrease in Profits: {Greatest_Decrease_Date} (${Greatest_Decrease})")
 
-# Printing output to Texty file in directory
-f = open("Week_3\Week_3_Challenge\python-challenge\PyBank\Output_Results.txt", "w")
+# Printing output to Text file in directory
+f = open("Week_3\Week_3_Challenge\python-challenge\PyBank\Bank_Results.txt", "w")
 print("Financial Analysis", file = f)
 print("", file = f)
 print("----------------------------", file = f)
