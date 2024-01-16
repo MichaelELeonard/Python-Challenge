@@ -4,7 +4,7 @@ import csv
 # Initialize variables
 Total_Votes = 0
 
-# List for Canidate Name, total Votes Received, Percentage of Vote Received 
+# List including Canidate Name, total Votes Received, Percentage of Vote Received 
 Canidate_Info_List = ["Charles Casper Stockham",0,0.0,"Diana DeGette",0,0.0,"Raymon Anthony Doane",0,0.0]
 
 # Initialize Variables
