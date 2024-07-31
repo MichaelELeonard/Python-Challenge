@@ -1,4 +1,4 @@
-<img src="Pics/Header 2.png" width="397" height="217">
+<img src="Pics/Header 2.png" width="700" height="382">
 
 # Module 3 Challenge - PYTHON-CHALLENGE
 ## GOAL
