@@ -26,11 +26,11 @@ For this project I imported the os & csv libraries and initialized my initial va
 
 ### RESULTS
 The results of the code were able to replicate the desired output laid out in the project rubric.  These results showed 86 months of data examined and a net total amount of:  <br>
-Profit/Losses to of $22,564,198.  
-The average change between months was $-8311.11.  
-The greatest increase in profits occurred on August 16th with an increase of $1,862,002.
-The greatest decrease in profits occurred on February 14th with a decrease of $-1,825,558.  
-The code executes efficiently, producing results in approximately 2.13 seconds.
+* Profit/Losses to of $22,564,198. <br>
+* The average change between months was $-8311.11. <br>
+* The greatest increase in profits occurred on August 16th with an increase of $1,862,002. <br>
+* The greatest decrease in profits occurred on February 14th with a decrease of $-1,825,558. <br>
+* The code executes efficiently, producing results in approximately 2.13 seconds. <br>
 
 
 ### PyPoll Project
