@@ -24,7 +24,11 @@ Greatest Decrease in Profits: Feb-14 ($-1825558)
 For this project I imported the os & csv libraries and initialized my initial variables.  I then set up the file path so the code would be able to read in the provided .csv file.  A FOR loop was utilized to read through the data in the file, storing the total number of months to be examined in Total_Months and the Net Total Profit/Losses in Total_Net.  A challenging component of this project was to calculate the Profit/Loss interval amounts that then tabulate the average of that change.  The Total_Sum_Change_Amount was calculated by taking the current months Profit/Loss amount (Change _Amount) and then subtracting it from the previous months Profit/Loss change amount (Previous_Change_Amout).  An exception needed to handle the first month of data as there was not (Previous_Change_Amout) data to compare it to, and one month needed to be removed in the Average_Change calculation to compensate for the loss of this first month.  Greatest_Increase, Greatest_Increase_Date, Greatest_Decrease, Greatest_Decrease_Date was also tracked while looping through the data as they were required variables for this project.  Finally, the results were printed out to the Visual Studio Terminal and a Text file (Bank_Results.txt) as outlined in the project rubric.    
 
 ### RESULTS
-The results of the code were able to replicate the desired output laid out in the project rubric.  These results showed 86 months of data examined and a net total amount of Profit/Losses to of $22,564,198.  The average change between months was $-8311.11.  The greatest increase in profits occurred on August 16th with an increase of $1,862,002 and the greatest decrease in profits occurred on February 14th with a decrease of $-1,825,558.  The code executes efficiently, producing results in approximately 2.13 seconds.
+The results of the code were able to replicate the desired output laid out in the project rubric.  These results showed 86 months of data examined and a net total amount of: 
+Profit/Losses to of $22,564,198.  
+The average change between months was $-8311.11.  
+The greatest increase in profits occurred on August 16th with an increase of $1,862,002 and the greatest decrease in profits occurred on February 14th with a decrease of $-1,825,558.  
+The code executes efficiently, producing results in approximately 2.13 seconds.
 
 
 ### PyPoll Project
