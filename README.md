@@ -4,6 +4,8 @@ For the Module #3 Challenge we were tasked with creating Python code to handle t
 
 ### PyBank Project
 For the PyBank project we needed the read in data from a .csv file and create code that will determine: <br>
+<br>
+
 •	The total number of months included in the dataset <br>
 •	The net total amount of "Profit/Losses" over the entire period <br>
 •	The changes in "Profit/Losses" over the entire period, and then the average of those changes <br>
