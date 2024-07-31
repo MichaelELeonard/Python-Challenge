@@ -13,6 +13,7 @@ For the PyBank project we needed the read in data from a .csv file and create co
 
 ### Financial Analysis
 <br>
+
 * Total Months: 86 <br>
 * Total: $22564198 <br>
 * Average Change: $-8311.11 <br>
