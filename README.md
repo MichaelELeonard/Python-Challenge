@@ -41,8 +41,6 @@ For the PyPoll project we needed the read in data from a .csv file and create co
 * The total number of votes each candidate won
 * The winner of the election based on popular vote
 
-The output results should display: 
-
 ### Election Results
 Total Votes: 369711 <br>
 Charles Casper Stockham: 23.049% (85213) <br>
