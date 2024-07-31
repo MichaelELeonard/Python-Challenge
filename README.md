@@ -1,3 +1,5 @@
+<img src="Pics/Header.png" width="817" height="456">
+
 # Module 3 Challenge - PYTHON-CHALLENGE
 ## GOAL
 For the Module #3 Challenge we were tasked with creating Python code to manage two potential real-world situations involving a Banking Institution and a Small Rural Town modernizing its election processes. 
