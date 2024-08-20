@@ -20,7 +20,7 @@ For the PyBank project we needed the read in data from a .csv file and create co
 * Greatest Decrease in Profits: Feb-14 ($-1825558) <br>
 
 
-### THE CODE
+### THE PYTHON CODE
 For this project I imported the os & csv libraries, the variables were initialized and the file path to the .csv file was established. A FOR loop was utilized to read the data in the file, storing the total number of months to be examined in Total_Months and the Net Total Profit/Losses in Total_Net. A challenging component of this project was to calculate the Profit/Loss interval amounts that then tabulate the average of that change. The Total_Sum_Change_Amount was calculated by taking the current months Profit/Loss amount (Change _Amount) and then subtracting it from the previous months Profit/Loss change amount (Previous_Change_Amout). An exception needed to manage the first month of data as there was not (Previous_Change_Amout) data to compare to, and so one month was removed in the Average_Change calculation to compensate for the first month. Greatest_Increase, Greatest_Increase_Date, Greatest_Decrease, Greatest_Decrease_Date was tracked while looping through the data as they were output variables for this project. Finally, the results were printed out to the Visual Studio Terminal and a text file (Bank_Results.txt. 
 
 ### FINANCIAL RESULTS
