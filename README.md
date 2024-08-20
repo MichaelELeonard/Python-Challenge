@@ -1,6 +1,11 @@
 <img src="Pics/Header.png" width="716" height="354">
 
 # Module 3 Challenge - PYTHON-CHALLENGE
+
+##### Link to PyBank Python code - https://github.com/MichaelELeonard/python-challenge/blob/main/PyBank/main.py
+##### Link to PyPoll Python code - - https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py
+
+
 ## GOAL
 For the Module #3 Challenge we were tasked with creating Python code to manage two potential real-world situations involving a banking institution and a small rural town modernizing its election processes. 
 
