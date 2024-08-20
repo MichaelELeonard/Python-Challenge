@@ -14,8 +14,7 @@ Greatest_Increase_Date = ""
 Greatest_Decrease_Date = ""
 
 # Set file path for reader
-csvpath = os.path.join ("../Resources/budget_data.csv")
-#csvpath = os.path.join("..", "Resources","budget_data.csv")
+csvpath = os.path.join("budget_data.csv")
  
 # Open and read csv
 with open(csvpath) as csvfile:
