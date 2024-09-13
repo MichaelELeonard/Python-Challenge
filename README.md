@@ -2,8 +2,8 @@
 
 # Module 3 Challenge - PYTHON-CHALLENGE
 
-##### Link to PyBank Python code - https://github.com/MichaelELeonard/python-challenge/blob/main/PyBank/main.py
-##### Link to PyPoll Python code - - https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py
+##### PyBank Python code - https://github.com/MichaelELeonard/python-challenge/blob/main/PyBank/main.py
+##### PyPoll Python code - - https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py
 
 
 ## GOAL
