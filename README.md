@@ -1,6 +1,6 @@
 <img src="Pics/Header.png" width="716" height="354">
 
-# Module 3 Challenge - PYTHON-CHALLENGE
+Python-Challenge
 
 ##### PyBank Python code - https://github.com/MichaelELeonard/python-challenge/blob/main/PyBank/main.py
 ##### PyPoll Python code - - https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py
