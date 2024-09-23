@@ -14,10 +14,12 @@ Greatest_Increase_Date = ""
 Greatest_Decrease_Date = ""
 
 # Set file path for reader
-csvpath = os.path.join("budget_data.csv")
+csvpath = os.path.join('Week_3_Challenge/python-challenge/PyBank/Resources/budget_data.csv')
+
  
 # Open and read csv
 with open(csvpath) as csvfile:
+
     csvreader = csv.reader(csvfile, delimiter=",")
 
     # Move pointer past header

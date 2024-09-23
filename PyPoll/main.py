@@ -32,8 +32,7 @@ def Who_Won():
 
 
 # Set file path for reader
-#csvpath = os.path.join ("Week_3/Week_3_Challenge/python-challenge/PyPoll/Resources/election_data.csv")
-csvpath = os.path.join ("..", "Resources", "election_data.csv")    
+csvpath = os.path.join ('Week_3_Challenge/python-challenge/PyPoll/Resources/election_data.csv')    
 
 # Open and read csv
 with open(csvpath) as csvfile:
