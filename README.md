@@ -13,7 +13,7 @@ For the Module #3 Challenge we were tasked with creating Python code to manage t
 For the PyBank project we needed the read in data from a .csv file and create code that will determine: <br>
 * The total number of months included in the dataset <br>
 * The net total amount of "Profit/Losses" over the entire period <br>
-* The changes in "Profit/Losses" over the entire period and the average of those changes <br>
+* The average change in "Profit/Losses" over the entire period <br>
 * The greatest increase in profits (date and amount) over the entire period <br>
 * The greatest decrease in profits (date and amount) over the entire period <br>
 
