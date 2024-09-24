@@ -2,13 +2,13 @@
 
 # Python-Challenge
 
-## PyBank Project
 
 #### PyBank Python code - https://github.com/MichaelELeonard/python-challenge/blob/main/PyBank/main.py
 
+## PyBank Project
+
 In the PyBank Challenge we were tasked with creating a python script to analyze the financial records of our company. We were provided a financial dataset called budget_data.csv composed of two columns: "Date" and "Profit/Losses" and were asked to calculate each of the following values:
 
-<br>
 * The total number of months included in the dataset <br>
 * The net total amount of "Profit/Losses" over the entire period <br>
 * The average change in "Profit/Losses" over the entire period <br>
@@ -19,9 +19,10 @@ In the PyBank Challenge we were tasked with creating a python script to analyze 
 <img src="Pics/PyBank Results.png" width="314" height="169">
 
 
-## PyPoll Project
 
 #### PyPoll Python code - - https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py
+
+## PyPoll Project
 
 In the PyPoll Challenge, we were tasked with helping a small, rural town modernize its vote-counting process.  We were provided a set of poll data called election_data.csv which is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a python script that analyzes the votes and calculates each of the following values:
 
