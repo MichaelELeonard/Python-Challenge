@@ -28,7 +28,7 @@ In the PyBank Challenge we were tasked with creating a python script to analyze 
 
 ##### PyPoll code - - https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py
 
-In the PyPoll Challenge, we were tasked with helping a small, rural town modernize its vote-counting process.  We were provided a set of poll data called election_data.csv which is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a python script that analyzes the votes and calculates each of the following values:
+In the PyPoll Challenge, we were tasked with helping a small, rural town modernize its vote-counting process.  We were provided a set of poll data called election_data.csv which is composed of three columns: "Voter ID", "County", and "Candidate". Our task was to create a python script that analyzes the votes and calculates each of the following values:
 
 * The total number of votes cast
 * A complete list of candidates who received votes
