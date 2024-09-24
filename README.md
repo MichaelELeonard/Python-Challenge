@@ -16,7 +16,7 @@ In the PyBank Challenge we were tasked with creating a python script to analyze 
 
 ## PyBank Financial Results
 
-#### PyBank Results - https://github.com/MichaelELeonard/Python-Challenge/blob/main/PyBank/Bank_Results.txt
+##### PyBank Results - https://github.com/MichaelELeonard/Python-Challenge/blob/main/PyBank/Bank_Results.txt
 
 <img src="Pics/PyBank Results.png" width="310" height="199">
 
@@ -38,7 +38,7 @@ In the PyPoll Challenge, we were tasked with helping a small, rural town moderni
 
 ## Election Results
 
-#### PyBank Results - https://github.com/MichaelELeonard/Python-Challenge/blob/main/PyPoll/Election_Results.txt
+##### PyBank Results - https://github.com/MichaelELeonard/Python-Challenge/blob/main/PyPoll/Election_Results.txt
 
 
 <img src="Pics/PyPoll Results.png" width="301" height="289">
