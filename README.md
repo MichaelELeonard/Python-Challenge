@@ -2,10 +2,9 @@
 
 # Python-Challenge
 
-
-#### PyBank Python code - https://github.com/MichaelELeonard/python-challenge/blob/main/PyBank/main.py
-
 ## PyBank Project
+
+##### PyBank Python code - https://github.com/MichaelELeonard/python-challenge/blob/main/PyBank/main.py
 
 In the PyBank Challenge we were tasked with creating a python script to analyze the financial records of our company. We were provided a financial dataset called budget_data.csv composed of two columns: "Date" and "Profit/Losses" and were asked to calculate each of the following values:
 
@@ -20,9 +19,10 @@ In the PyBank Challenge we were tasked with creating a python script to analyze 
 
 
 
-#### PyPoll Python code - - https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py
 
 ## PyPoll Project
+
+##### PyPoll Python code - - https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py
 
 In the PyPoll Challenge, we were tasked with helping a small, rural town modernize its vote-counting process.  We were provided a set of poll data called election_data.csv which is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a python script that analyzes the votes and calculates each of the following values:
 
