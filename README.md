@@ -36,7 +36,7 @@ In the PyPoll Challenge, we were tasked with helping a small, rural town moderni
 * The total number of votes each candidate won
 * The winner of the election based on popular vote
 
-## Election Results
+## PyPoll Election Results
 
 ##### PyBank Results - https://github.com/MichaelELeonard/Python-Challenge/blob/main/PyPoll/Election_Results.txt
 
