@@ -6,7 +6,7 @@
 
 PyBank code - https://github.com/MichaelELeonard/python-challenge/blob/main/PyBank/main.py
 
-In the PyBank Challenge we were tasked with creating a python script to analyze the financial records of our company. We were provided a financial dataset called budget_data.csv composed of two columns: "Date" and "Profit/Losses" and were asked to calculate each of the following values:
+In the PyBank Challenge we were tasked with creating a python script to analyze the financial records of our company. We were provided a financial dataset composed of two columns: "Date" and "Profit/Losses" and were asked to calculate each of the following values:
 
 * The total number of months included in the dataset <br>
 * The net total amount of "Profit/Losses" over the entire period <br>
@@ -28,7 +28,7 @@ PyBank Results - https://github.com/MichaelELeonard/Python-Challenge/blob/main/P
 
 PyPoll code - - https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py
 
-In the PyPoll Challenge, we were tasked with helping a small, rural town modernize its vote-counting process.  We were provided a set of poll data called election_data.csv which is composed of three columns: "Voter ID", "County", and "Candidate". Our task was to create a python script that analyzes the votes and calculates each of the following values:
+In the PyPoll Challenge, we were tasked with helping a small, rural town modernize its vote-counting process.  We were provided a set of poll data composed of three columns: "Voter ID", "County", and "Candidate". Our task was to create a python script that analyzes the votes and calculates each of the following values:
 
 * The total number of votes cast
 * A complete list of candidates who received votes
