@@ -24,7 +24,9 @@ PyBank Results - https://github.com/MichaelELeonard/Python-Challenge/blob/main/P
 
 ## PyPoll Project
 
+
 [PyPoll Code Link]( https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py)
+
 
 In the PyPoll Challenge, we were tasked with helping a small, rural town modernize its vote-counting process.  We were provided a set of poll data composed of three columns: "Voter ID", "County", and "Candidate". Our task was to create a python script that calculates each of the following values:
 
