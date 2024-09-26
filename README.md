@@ -16,7 +16,7 @@ In the PyBank Challenge we were tasked with creating a python script to analyze 
 
 ## PyBank Financial Results
 
-PyBank Results - https://github.com/MichaelELeonard/Python-Challenge/blob/main/PyBank/Bank_Results.txt
+[PyBank Results]( https://github.com/MichaelELeonard/Python-Challenge/blob/main/PyBank/Bank_Results.txt)
 
 <img src="Pics/PyBank Results.png" width="310" height="199">
 
@@ -24,9 +24,7 @@ PyBank Results - https://github.com/MichaelELeonard/Python-Challenge/blob/main/P
 
 ## PyPoll Project
 
-
 [PyPoll Code Link]( https://github.com/MichaelELeonard/python-challenge/blob/main/PyPoll/main.py)
-
 
 In the PyPoll Challenge, we were tasked with helping a small, rural town modernize its vote-counting process.  We were provided a set of poll data composed of three columns: "Voter ID", "County", and "Candidate". Our task was to create a python script that calculates each of the following values:
 
@@ -38,7 +36,6 @@ In the PyPoll Challenge, we were tasked with helping a small, rural town moderni
 
 ## PyPoll Election Results
 
-PyBank Results - https://github.com/MichaelELeonard/Python-Challenge/blob/main/PyPoll/Election_Results.txt
-
+[PyPoll Results]( https://github.com/MichaelELeonard/Python-Challenge/blob/main/PyPoll/Election_Results.txt)
 
 <img src="Pics/PyPoll Results.png" width="301" height="289">
